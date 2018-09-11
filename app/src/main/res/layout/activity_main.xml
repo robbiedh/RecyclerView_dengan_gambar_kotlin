@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.borongajayuk.belajar1.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Ketik nama anda "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nama_saya"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Nama"
+        android:ems="10"
+        android:id="@+id/field_nama" />
+
+    <Button
+        android:text="Sapa Saya!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tombol_sapa" />
+</LinearLayout>
