@@ -5,28 +5,17 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.borongajayuk.belajar1.MainActivity"
-    android:orientation="vertical">
+   >
 
-    <TextView
-        android:text="Ketik nama anda "
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/nama_saya"
-        />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Nama"
-        android:ems="10"
-        android:id="@+id/field_nama" />
-
-    <Button
-        android:text="Sapa Saya!"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/tombol_sapa" />
+    <android.support.v7.widget.RecyclerView
+    android:id="@+id/club_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+         app:layout_constraintRight_toRightOf="parent"
+         app:layout_constraintTop_toTopOf="parent" />
 </LinearLayout>
